@@ -8,8 +8,9 @@ import android.provider.BaseColumns;
 
 import java.util.ArrayList;
 
-import com.example.practica_sqlite.database.helper.ShoppingElementHelper;
-import com.example.practica_sqlite.database.model.ShoppingItem;
+import facci.pm.ta3.sqlite.trabajoautonomo3sqlite.database.helper.ShoppingElementHelper;
+import facci.pm.ta3.sqlite.trabajoautonomo3sqlite.database.model.ShoppingItem;
+
 public class ShoppingItemDB {
     private static final String TEXT_TYPE = " TEXT";
     private static final String COMMA_SEP = ",";
